@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crypto Scam Vectors — Glossary & Field Guide</title>
+<meta name="description" content="Open-source glossary of documented crypto scam patterns: wallet drainers, approval phishing, honeypots, bridge exploits, AI scams and more, each with mechanics, red flags, and recovery steps. Maintained by CryptoStrapon.">
+<style>
+  :root{
+    --bg:#0d0718; --panel:#150c26; --panel-border:#2a1b45;
+    --text:#f1ecfb; --muted:#a393c4;
+    --accent1:#c13fd6; --accent2:#f0a24a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
+  .wrap{max-width:860px;margin:0 auto;padding:28px 18px 80px}
+  header{text-align:center;margin-bottom:24px}
+  h1{font-size:1.9rem;margin:0 0 8px;background:linear-gradient(90deg,var(--accent1),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  header p{color:var(--muted);margin:4px 0;font-size:.95rem}
+  header a{color:var(--accent2)}
+  .search{
+    width:100%;padding:12px 16px;border-radius:10px;border:1px solid var(--panel-border);
+    background:var(--panel);color:var(--text);font-size:.95rem;margin:18px 0;
+  }
+  .grid{display:grid;grid-template-columns:1fr;gap:14px}
+  .card{background:var(--panel);border:1px solid var(--panel-border);border-radius:14px;padding:20px;cursor:pointer}
+  .card h2{margin:0 0 6px;font-size:1.15rem;color:#fff}
+  .card .tagline{color:var(--muted);font-size:.9rem;margin-bottom:10px}
+  .tags{display:flex;gap:6px;flex-wrap:wrap}
+  .tag{background:#1b1030;border:1px solid var(--panel-border);border-radius:999px;padding:2px 10px;font-size:.72rem;color:var(--muted)}
+  .detail{display:none;margin-top:14px;border-top:1px solid var(--panel-border);padding-top:14px;font-size:.92rem;color:#dcd3ef}
+  .detail.open{display:block}
+  .detail h3{color:var(--accent2);font-size:.85rem;text-transform:uppercase;letter-spacing:.04em;margin:16px 0 8px}
+  .detail h3:first-child{margin-top:0}
+  .detail ul{margin:0;padding-left:20px}
+  .detail li{margin-bottom:6px}
+  .detail p{margin:0 0 10px}
+  footer{text-align:center;color:var(--muted);font-size:.82rem;margin-top:40px}
+  footer a{color:var(--accent2)}
+  .count{color:var(--muted);font-size:.85rem;margin-bottom:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Crypto Scam Vectors</h1>
+    <p>An open glossary &amp; field guide. Click any entry for mechanics, red flags, and what to do if it already happened.</p>
+    <p>From <a href="https://cryptostrapon.com" target="_blank" rel="noopener">CryptoStrapon</a> — Free AI Scam Detector &amp; Education Hub · Full version with filters: <a href="https://cryptostrapon.com/scams" target="_blank" rel="noopener">cryptostrapon.com/scams</a></p>
+  </header>
+
+  <input type="text" class="search" id="search" placeholder="Search by term or signal: &quot;sign&quot;, &quot;honeypot&quot;, &quot;bridge&quot;…">
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+
+  <footer>
+    Educational resource only — not financial or legal advice.<br>
+    Plain-text version: <a href="GLOSSARY.md" target="_blank" rel="noopener">GLOSSARY.md</a> ·
+    <a href="https://github.com/cryptostrapon/crypto-scam-glossary" target="_blank" rel="noopener">Source &amp; contributing</a>
+  </footer>
+</div>
+
+<script>
+let DATA = [];
+
+async function load() {
+  const res = await fetch('vectors.json');
+  DATA = await res.json();
+  render(DATA);
+}
+
+function render(list) {
+  const grid = document.getElementById('grid');
+  document.getElementById('count').textContent = list.length + ' of ' + DATA.length + ' vectors';
+  grid.innerHTML = '';
+  list.forEach((v) => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+      <h2>${v.label}</h2>
+      <div class="tagline">${v.tagline}</div>
+      <div class="tags">${v.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
+      <div class="detail" id="detail-${v.slug}">
+        ${v.intro.map(p => `<p>${p}</p>`).join('')}
+        <h3>How it works</h3>
+        <ul>${v.mechanics.map(m => `<li><strong>${m.title}</strong> — ${m.text}</li>`).join('')}</ul>
+        <h3>Red flags</h3>
+        <ul>${v.redFlags.map(r => `<li>${r}</li>`).join('')}</ul>
+        <h3>If it already happened</h3>
+        <ul>${v.ifHit.map(s => `<li>${s}</li>`).join('')}</ul>
+      </div>
+    `;
+    card.onclick = (e) => {
+      const d = card.querySelector('.detail');
+      d.classList.toggle('open');
+    };
+    grid.appendChild(card);
+  });
+}
+
+document.getElementById('search').addEventListener('input', (e) => {
+  const q = e.target.value.toLowerCase().trim();
+  if (!q) { render(DATA); return; }
+  const filtered = DATA.filter(v =>
+    v.label.toLowerCase().includes(q) ||
+    v.tagline.toLowerCase().includes(q) ||
+    v.tags.some(t => t.toLowerCase().includes(q)) ||
+    v.categories.some(c => c.toLowerCase().includes(q)) ||
+    v.redFlags.some(r => r.toLowerCase().includes(q))
+  );
+  render(filtered);
+});
+
+load();
+</script>
+</body>
+</html>
