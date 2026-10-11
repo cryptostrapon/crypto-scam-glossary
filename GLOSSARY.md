@@ -55,6 +55,8 @@ Every case below ends the same way: funds leave in one transaction and never com
 - Save the transaction hashes: they are the only evidence that survives.
 - Report to the chain analytics firms and the exchange that received the funds; freezes do happen, but only fast.
 
+**Source:** CryptoStrapon Threat Intel - [documented cases and guide: Wallet drainers](https://cryptostrapon.com/scams/wallet-drainers)
+
 ---
 
 ## Approval phishing
@@ -89,6 +91,8 @@ It works because approvals are invisible after the fact. The wallet shows a succ
 - Check every other approval on the same address — drainer kits request several.
 - Move remaining balances to a fresh address rather than trusting the cleaned one.
 - Keep the signature hash: it identifies the drainer kit, and kits get attributed.
+
+**Source:** CryptoStrapon Threat Intel - [documented cases and guide: Approval phishing](https://cryptostrapon.com/scams/approval-phishing)
 
 ---
 
@@ -125,6 +129,8 @@ The variants below span cloned stablecoins, contracts that permit buys and block
 - If a counterparty pushed the token during an OTC deal, treat every other asset in that deal as suspect.
 - Report the contract to the explorer — labelled contracts stop the next buyer.
 
+**Source:** CryptoStrapon Threat Intel - [documented cases and guide: Fake tokens & honeypots](https://cryptostrapon.com/scams/fake-tokens-honeypots)
+
 ---
 
 ## Bridge exploits
@@ -159,6 +165,8 @@ The exploits collected here are failures of proof, not of cryptography — a mes
 - Withdraw approvals to the bridge router; exploited routers are re-used.
 - Track the official post-mortem for a reimbursement snapshot block, and keep proof of your position at that block.
 - Do not trust 'recovery portals' announced in replies — they are the second wave of the same attack.
+
+**Source:** CryptoStrapon Threat Intel - [documented cases and guide: Bridge exploits](https://cryptostrapon.com/scams/bridge-exploits)
 
 ---
 
@@ -195,6 +203,8 @@ These cases cover impersonated desks, cash meetings that were always a robbery, 
 - File a report where the money left, not where the counterparty claims to be.
 - If a physical meeting is already scheduled, cancel it. This is the point where OTC fraud turns violent.
 
+**Source:** CryptoStrapon Threat Intel - [documented cases and guide: OTC & cash fraud](https://cryptostrapon.com/scams/otc-cash-fraud)
+
 ---
 
 ## AI-powered scams
@@ -229,6 +239,8 @@ The investigations here cover both directions of the problem — attackers using
 - Revoke any permissions granted to an agent, and rotate its API keys.
 - Have a human re-check every finding an AI tool cleared before you shipped.
 - Report the deepfake to the platform: takedowns are slow, but attribution accumulates.
+
+**Source:** CryptoStrapon Threat Intel - [documented cases and guide: AI-powered scams](https://cryptostrapon.com/scams/ai-scams)
 
 ---
 
@@ -265,6 +277,8 @@ The cases below share a structure: an assumption written into code, an attacker 
 - Record your position at the incident block; reimbursements are settled from a snapshot.
 - Read the post-mortem for the bug class, not the patch — the class predicts the next incident.
 
+**Source:** CryptoStrapon Threat Intel - [documented cases and guide: Protocol exploits](https://cryptostrapon.com/scams/protocol-exploits)
+
 ---
 
 ## Laundering networks
@@ -299,6 +313,8 @@ These investigations follow the money after the headline: how proceeds are layer
 - Preserve every transaction record before deleting an app or account.
 - Report to your bank and to the receiving exchange; both can freeze faster than law enforcement.
 - Get legal advice if your account was used to forward funds; that exposure is real and time-sensitive.
+
+**Source:** CryptoStrapon Threat Intel - [documented cases and guide: Laundering networks](https://cryptostrapon.com/scams/money-laundering)
 
 ---
 
@@ -335,6 +351,8 @@ The cases here run from classic pay-the-old-with-the-new schemes to funded proje
 - Export the account history and all communications before access disappears.
 - Warn whoever referred you; in most schemes they are the next victim, not the operator.
 
+**Source:** CryptoStrapon Threat Intel - [documented cases and guide: Investment fraud](https://cryptostrapon.com/scams/investment-fraud)
+
 ---
 
 ## Data breaches
@@ -370,6 +388,8 @@ The investigations here trace breaches back to the boring places they actually h
 - Set a withdrawal allowlist on every exchange account that supports one.
 - Expect targeted phishing for months, and verify support contact by calling the platform yourself.
 
+**Source:** CryptoStrapon Threat Intel - [documented cases and guide: Data breaches](https://cryptostrapon.com/scams/data-breaches)
+
 ---
 
 ## Airdrop fraud
@@ -404,5 +424,7 @@ Every variant funnels to the same screen — connect, verify eligibility, sign t
 - Check for a second, quieter approval — claim kits often request two.
 - Move funds to a fresh address if an unlimited allowance was signed.
 - Report the domain; claim pages are cloned across dozens of lookalike hosts.
+
+**Source:** CryptoStrapon Threat Intel - [documented cases and guide: Airdrop fraud](https://cryptostrapon.com/scams/airdrop-fraud)
 
 ---
