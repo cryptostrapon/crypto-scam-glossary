@@ -5,6 +5,9 @@ An open-source glossary of documented crypto scam patterns — wallet drainers, 
 **Live demo:** https://cryptostrapon.github.io/crypto-scam-glossary/
 **Plain-text version:** [GLOSSARY.md](GLOSSARY.md)
 **Full interactive version with filters:** https://cryptostrapon.com/scams
+**Documented real-world cases:** https://cryptostrapon.com/stories
+**Free scam checker:** https://cryptostrapon.com/scam-detector
+**Lost funds? What to do next:** https://cryptostrapon.com/report-crypto-theft
 
 ## Why this exists
 
@@ -17,6 +20,17 @@ index.html      Interactive, searchable glossary (vanilla HTML/CSS/JS, no build 
 vectors.json    The structured data — one object per scam vector
 GLOSSARY.md     The same content as plain markdown, for easy reading/citing/forking
 ```
+
+## Use the data in your bot, wallet or app
+
+`vectors.json` is a plain JSON file you can load directly: no API key, no dependencies.
+
+```
+https://raw.githubusercontent.com/cryptostrapon/crypto-scam-glossary/main/vectors.json
+https://cdn.jsdelivr.net/gh/cryptostrapon/crypto-scam-glossary@main/vectors.json
+```
+
+Use it for scam warnings in wallets, browser extensions, Telegram bots or training material. It is CC BY 4.0: please credit "CryptoStrapon" and link to https://cryptostrapon.com/scams.
 
 ## Running it locally
 
