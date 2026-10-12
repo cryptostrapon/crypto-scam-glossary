@@ -1,5 +1,7 @@
 # Crypto Scam Vectors — Glossary & Field Guide
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23326056.svg)](https://doi.org/10.5281/zenodo.23326056)
+
 An open-source glossary of crypto scam patterns observed in our investigations — wallet drainers, approval phishing, honeypot tokens, bridge exploits, AI-powered scams, OTC fraud, laundering networks, investment fraud, data breaches, and airdrop fraud. Each entry covers how the mechanism actually works, the red flags that give it away before you lose funds, and the steps to take if you've already been hit.
 
 **Live demo:** https://cryptostrapon.github.io/crypto-scam-glossary/

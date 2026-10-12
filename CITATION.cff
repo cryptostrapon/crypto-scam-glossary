@@ -1,8 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this material, please cite it as below."
 title: "Crypto Scam Vectors Glossary and Field Guide"
-abstract: "An open glossary of documented crypto scam vectors: mechanics, red flags and recovery steps."
+abstract: "An open glossary of crypto scam vectors observed in our investigations: mechanics, red flags and recovery steps."
 type: dataset
+doi: 10.5281/zenodo.23326056
 authors:
   - name: "CryptoStrapon"
     website: "https://cryptostrapon.com"
