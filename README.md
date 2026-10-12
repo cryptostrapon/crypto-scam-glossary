@@ -1,11 +1,11 @@
 # Crypto Scam Vectors — Glossary & Field Guide
 
-An open-source glossary of documented crypto scam patterns — wallet drainers, approval phishing, honeypot tokens, bridge exploits, AI-powered scams, OTC fraud, laundering networks, investment fraud, data breaches, and airdrop fraud. Each entry covers how the mechanism actually works, the red flags that give it away before you lose funds, and the steps to take if you've already been hit.
+An open-source glossary of crypto scam patterns observed in our investigations — wallet drainers, approval phishing, honeypot tokens, bridge exploits, AI-powered scams, OTC fraud, laundering networks, investment fraud, data breaches, and airdrop fraud. Each entry covers how the mechanism actually works, the red flags that give it away before you lose funds, and the steps to take if you've already been hit.
 
 **Live demo:** https://cryptostrapon.github.io/crypto-scam-glossary/
 **Plain-text version:** [GLOSSARY.md](GLOSSARY.md)
 **Full interactive version with filters:** https://cryptostrapon.com/scams
-**Documented real-world cases:** https://cryptostrapon.com/stories
+**Investigations on the main site:** https://cryptostrapon.com/stories
 **Free scam checker:** https://cryptostrapon.com/scam-detector
 **Lost funds? What to do next:** https://cryptostrapon.com/report-crypto-theft
 
@@ -51,4 +51,4 @@ New vectors, corrections, and translations are welcome — see [CONTRIBUTING.md]
 
 ## About
 
-Maintained by [CryptoStrapon](https://cryptostrapon.com) — a free AI scam detector and crypto-scam education hub. We document real fraud cases and build free tools so people don't have to learn these lessons the expensive way.
+Maintained by [CryptoStrapon](https://cryptostrapon.com) — a free AI scam detector and crypto-scam education hub. We investigate crypto scams and build free tools so people don't have to learn these lessons the expensive way.

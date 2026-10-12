@@ -22,7 +22,7 @@
    }
    ```
 3. Regenerate `GLOSSARY.md` from `vectors.json` (or update both by hand, keeping them in sync) before opening a PR.
-4. Base new entries on real, documented cases where possible — link a source in your PR description.
+4. Base new entries on real scam patterns. If an entry draws on a public incident, link a source in your PR description; otherwise describe the pattern in general terms.
 5. Red flags should be *observable before the loss happens* — not just "this was a scam in hindsight."
 
 ## Reporting an error
