@@ -36,3 +36,7 @@ Open an issue. If a mechanism described is outdated (e.g. a wallet UX change tha
 ## Code of conduct
 
 Be respectful. This project exists to help people avoid losing money to fraud.
+
+## Licensing of contributions
+
+By contributing, you agree that code you submit is licensed under the MIT License and content you submit is licensed under CC BY 4.0, matching the rest of the repository.
