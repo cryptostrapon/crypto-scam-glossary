@@ -1,6 +1,7 @@
 # Crypto Scam Vectors — Glossary & Field Guide
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23326056.svg)](https://doi.org/10.5281/zenodo.23326056)
+[![Code: MIT](https://img.shields.io/badge/code-MIT-green)](LICENSE) [![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-blue)](LICENSE-CONTENT.md) ![Scam vectors: 11](https://img.shields.io/badge/scam%20vectors-11-orange) [![Live demo](https://img.shields.io/badge/live-demo-brightgreen)](https://cryptostrapon.github.io/crypto-scam-glossary/)
 
 An open-source glossary of crypto scam patterns observed in our investigations — wallet drainers, approval phishing, honeypot tokens, bridge exploits, AI-powered scams, OTC fraud, laundering networks, investment fraud, data breaches, and airdrop fraud. Each entry covers how the mechanism actually works, the red flags that give it away before you lose funds, and the steps to take if you've already been hit.
 
@@ -10,6 +11,18 @@ An open-source glossary of crypto scam patterns observed in our investigations �
 **Investigations on the main site:** https://cryptostrapon.com/stories
 **Free scam checker:** https://cryptostrapon.com/scam-detector
 **Lost funds? What to do next:** https://cryptostrapon.com/report-crypto-theft
+
+## Use it
+
+Embed the glossary in a blog, classroom page or community wiki:
+
+```html
+<iframe src="https://cryptostrapon.github.io/crypto-scam-glossary/" width="100%" height="720" style="border:0" title="Crypto scam vectors glossary" loading="lazy"></iframe>
+```
+
+Or reuse the text directly from [GLOSSARY.md](GLOSSARY.md). Content is CC BY 4.0: copy, translate and adapt it with attribution to CryptoStrapon.
+
+**Pairs well with:** the open [Crypto Scam Detection Quiz](https://github.com/cryptostrapon/crypto-scam-quiz) (50 scenarios, same licence).
 
 ## Why this exists
 
