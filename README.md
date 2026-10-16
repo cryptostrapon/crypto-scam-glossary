@@ -58,6 +58,12 @@ python3 -m http.server 8000
 
 New vectors, corrections, and translations are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Disclaimer and corrections
+
+This glossary is for education only. It is not financial, legal or investment advice. Company, wallet and product names appear only to show how scammers impersonate them. They do not imply wrongdoing by those companies.
+
+Found an error? Open a "Report an inaccuracy" issue or write to cryptostrapon@proton.me. Verified corrections are fixed as soon as we can.
+
 ## License
 
 - Code (`index.html` and any scripts): [MIT](LICENSE)
