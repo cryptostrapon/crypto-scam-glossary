@@ -1,0 +1,19 @@
+name: Suggest an entry or a source
+description: Propose a missing scam vector, a clearer explanation or a public source for an entry
+title: "[Entry] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What should be added or changed?
+      description: Describe how the mechanism works, the red flags, and what a victim should do. Remove real names and identifying details.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public source
+      description: Link to a public report or article that supports it.
+    validations:
+      required: true
