@@ -73,3 +73,5 @@ Found an error? Open a "Report an inaccuracy" issue or write to cryptostrapon@pr
 ## About
 
 Maintained by [CryptoStrapon](https://cryptostrapon.com) — a free AI scam detector and crypto-scam education hub. We investigate crypto scams and build free tools so people don't have to learn these lessons the expensive way.
+
+If this was useful, a star helps other people find it.
