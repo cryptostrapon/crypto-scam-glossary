@@ -8,6 +8,7 @@ An open-source glossary of crypto scam patterns observed in our investigations â
 **Live demo:** https://cryptostrapon.github.io/crypto-scam-glossary/
 **Plain-text version:** [GLOSSARY.md](GLOSSARY.md)
 **Full interactive version with filters:** https://cryptostrapon.com/scams
+**Full A to Z glossary of scam terms:** https://cryptostrapon.com/glossary
 **Investigations on the main site:** https://cryptostrapon.com/stories
 **Free scam checker:** https://cryptostrapon.com/scam-detector
 **Lost funds? What to do next:** https://cryptostrapon.com/report-crypto-theft
@@ -22,7 +23,7 @@ Embed the glossary in a blog, classroom page or community wiki:
 
 Or reuse the text directly from [GLOSSARY.md](GLOSSARY.md). Content is CC BY 4.0: copy, translate and adapt it with attribution to CryptoStrapon.
 
-**Pairs well with:** the open [Crypto Scam Detection Quiz](https://github.com/cryptostrapon/crypto-scam-quiz) (50 core scenarios, 104 on the website, same licence).
+**Pairs well with:** the open [Crypto Scam Detection Quiz](https://github.com/cryptostrapon/crypto-scam-quiz) (50 core scenarios, 106 on the website, same licence).
 
 ## Why this exists
 
