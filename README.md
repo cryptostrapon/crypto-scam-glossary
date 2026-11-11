@@ -23,7 +23,7 @@ Embed the glossary in a blog, classroom page or community wiki:
 
 Or reuse the text directly from [GLOSSARY.md](GLOSSARY.md). Content is CC BY 4.0: copy, translate and adapt it with attribution to CryptoStrapon.
 
-**Pairs well with:** the open [Crypto Scam Detection Quiz](https://github.com/cryptostrapon/crypto-scam-quiz) (50 core scenarios, 106 on the website, same licence).
+**Pairs well with:** the open [Crypto Scam Detection Quiz](https://github.com/cryptostrapon/crypto-scam-quiz) (50 core scenarios, 107 on the website, same licence).
 
 ## Why this exists
 
