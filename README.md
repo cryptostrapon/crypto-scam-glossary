@@ -75,8 +75,4 @@ Found an error? Open a "Report an inaccuracy" issue or write to cryptostrapon@pr
 
 Maintained by [CryptoStrapon](https://cryptostrapon.com) — a free AI scam detector and crypto-scam education hub. We investigate crypto scams and build free tools so people don't have to learn these lessons the expensive way.
 
-If this was useful, a star helps other people find it.
-
-## Show your support
-
-If the glossary helped you understand a scam pattern, consider [starring the repository](https://github.com/cryptostrapon/crypto-scam-glossary) to help others discover it. New vectors and corrections are welcome in the [issue tracker](https://github.com/cryptostrapon/crypto-scam-glossary/issues).
+If this was useful, consider [starring the repository](https://github.com/cryptostrapon/crypto-scam-glossary). New vectors and corrections are welcome in the [issue tracker](https://github.com/cryptostrapon/crypto-scam-glossary/issues).
