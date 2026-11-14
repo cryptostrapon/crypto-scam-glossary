@@ -79,4 +79,4 @@ If this was useful, a star helps other people find it.
 
 ## Show your support
 
-If the glossary helped you understand an attack before it reached your wallet, a star helps others find it: ⭐ [star the repo](https://github.com/cryptostrapon/crypto-scam-glossary/stargazers). New vectors and corrections are welcome — see the open issues.
+If the glossary helped you understand a scam pattern, consider [starring the repository](https://github.com/cryptostrapon/crypto-scam-glossary) to help others discover it. New vectors and corrections are welcome in the [issue tracker](https://github.com/cryptostrapon/crypto-scam-glossary/issues).
