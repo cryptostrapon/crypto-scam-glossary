@@ -71,6 +71,10 @@ Found an error? Open a "Report an inaccuracy" issue or write to cryptostrapon@pr
 - Glossary content (`vectors.json`, `GLOSSARY.md`): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — reuse freely with attribution to CryptoStrapon. Full notice: [LICENSE-CONTENT.md](LICENSE-CONTENT.md).
 - Citing: see [CITATION.cff](CITATION.cff). Security reports: see [SECURITY.md](SECURITY.md).
 
+## Related
+
+- [Before you set up a hardware wallet](https://github.com/cryptostrapon/cryptostrapon-public/blob/main/checklists/hardware-wallet-setup.md): open checklist after the 2026 hardware implant incident, in English and [Spanish](https://github.com/cryptostrapon/cryptostrapon-public/blob/main/checklists/hardware-wallet-setup.es.md)
+
 ## About
 
 Maintained by [CryptoStrapon](https://cryptostrapon.com) — a free AI scam detector and crypto-scam education hub. We investigate crypto scams and build free tools so people don't have to learn these lessons the expensive way.
